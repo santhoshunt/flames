@@ -2,8 +2,7 @@ from tkinter import *
 from PIL import ImageTk,Image
 window=Tk()
 window.title("FLAMES")
-#window.iconphoto(False,PhotoImage(file="C:/Users/ELCOT/Desktop/programs/python/website.ico"))
-img1=ImageTk.PhotoImage(Image.open("C:/Users/ELCOT/Desktop/programs/python/hearts.jpeg"))
+img1=ImageTk.PhotoImage(Image.open("C:/Enter/the/filepath/file_name.jpeg"))
 label=Label(image=img1)
 l1=Label(window,text="Enter your name :",bg="#F94F60")
 e1=Entry(window,width=40,borderwidth=5)
